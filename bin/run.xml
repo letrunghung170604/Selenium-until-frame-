@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DoTest" verbose="1">
+    <test name="LeTrungHung_DoTest">
+        <classes>
+            
+            <class name="Elements.ButtonActionClass">
+                <methods>
+                    <include name="HandleButton" />
+                </methods>
+            </class>
+            
+        </classes>
+    </test>
+</suite>

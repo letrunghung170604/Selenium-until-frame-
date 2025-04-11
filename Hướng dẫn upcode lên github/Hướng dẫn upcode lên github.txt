@@ -1,0 +1,16 @@
+Hướng dấn up code lên github
+-Khi lần đầu up lên repository
++git config --global user.name "tên đăng nhập"
++git config --global user.mail tenemaildangnhap
+vào thư mục muốn up
++git init
++git remote add origin https://github.com/letrunghung170604/Selenium-until-frame-.git (copy trong repository)
++git add . (up hết trong thư mục)
++git commit -m "dattennhan"
++git push origin master
+-Khi up các lần sau (cập nhật nội dung trên git)
++git pull origin master (nếu xảy ra xung đột thì dùng lệnh này)
++git add . (up hết trong thư mục)
++git commit -m "dattennhan"
++git push origin master
+
